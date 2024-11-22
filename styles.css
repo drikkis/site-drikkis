@@ -1,0 +1,140 @@
+body {
+    padding: 0 15%;
+    color: #300F15;
+    background-color: #FFF6E0 /*#FFF5DB*/;
+    font-family: 'Lora', sans-serif;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #b83a51;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Header */
+
+.header {
+    padding: 12px 0;
+    display: flex;
+    flex: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #b83a51;
+    text-shadow: #130608 0.1rem 0.1rem, #1d090d 0.2rem 0.2rem, #260c11 0.3rem 0.3rem;
+}
+
+.header ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+}
+
+.header .navbar a {
+    text-decoration: none;
+    color: #FFF6E0;
+    /* Box for Header link */
+    background-color: #b83a51;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #300F15;
+    border-radius: 4px;
+    padding: 4px 12px;
+    box-shadow: #260c11 0.1rem 0.1rem, #260c11 0.2rem 0.2rem, #260c11 0.3rem 0.3rem; 
+}
+
+.header .navbar a:hover {
+    text-decoration: none;
+    color: #b83a51;
+    text-shadow: #260c11 0.0625rem 0.0625rem;
+    /* Box for Header link */
+    background-color: #FFF6E0;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #300F15;
+    border-radius: 4px;
+    padding: 4px 12px;
+    box-shadow: #260c11 0.1rem 0.1rem, #260c11 0.2rem 0.2rem, #260c11 0.3rem 0.3rem; 
+}
+
+
+/* Site Content */
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.content .heading-text {
+    text-align: center;
+}
+
+.content .heading {
+    padding-top: 10rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex: 0;
+    justify-content: center;
+    align-items: end;
+}
+
+/* for blog.html */
+
+.post {
+    /*Structure*/
+    display: flex;
+    flex-direction: column;
+    /*Styling*/
+    color: #300F15;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #300F15;
+    border-radius: 4px;
+    padding: 4px 2rem;
+    box-shadow: #260c11 0.1rem 0.1rem, #260c11 0.2rem 0.2rem, #260c11 0.3rem 0.3rem; 
+}
+
+.post-header {
+    /*Structure*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+}
+
+.gif    {
+    color: #300F15;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #300F15;
+    border-radius: 4px;
+    padding: 4px 2rem;
+    box-shadow: #260c11 0.1rem 0.1rem, #260c11 0.2rem 0.2rem, #260c11 0.3rem 0.3rem; 
+}
